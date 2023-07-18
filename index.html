@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+      content="Питомник Мейн-Кунов в Новосибирске. Первый питомник с расширенным спектром услуг.">
+    <title>HTML Academy: Питомник Мейн-кунов</title>
+    <link rel="preload" href="fonts/Roboto-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="fonts/Roboto-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="fonts/Roboto-Light.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="fonts/Roboto-Medium.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="fonts/YesevaOne-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/styles.css">
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header-content">
+        <a class="logo header-logo" href="index.html">
+          <span class="visually-hidden">Логотип питомника Мейн-кунов.</span>
+        </a>
+        <div class="header-wrapper">
+          <p class="city">Новосибирск</p>
+          <h1 class="header-heading">Питомник <br> Мейн-Кунов</h1>
+          <p class="header-description">Первый питомник с расширенным <br>
+            спектром услуг</p>
+          <a class="header-link button" href="#">Смотреть котиков</a>
+        </div>
+        <ul class="social-list header-social-list">
+          <li class="social-item">
+            <a class="social-link social-link-vk" href="#" target="_blank">
+              <span class="visually-hidden">Мы во Вконтакте.</span>
+            </a>
+          </li>
+          <li class="social-item">
+            <a class="social-link social-link-twitter" href="#" target="_blank">
+              <span class="visually-hidden">Мы в Твиттере.</span>
+            </a>
+          </li>
+          <li class="social-item">
+            <a class="social-link social-link-facebook" href="#" target="_blank">
+              <span class="visually-hidden">Мы в Фейсбуке.</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main class="main">
+      <section class="pets">
+        <div class="pets-content">
+          <h2 class="pets-heading">Питомцы</h2>
+          <p class="pets-description">Все представители нашего питомника имеют ветеринарный паспорт <br>
+            с отметками о прививках и документ с родословной</p>
+          <ul class="pets-list">
+            <li class="pets-item">
+              <button class="pets-item-button pets-item-button-active" type="button">Коты</button>
+            </li>
+            <li class="pets-item">
+              <button class="pets-item-button" type="button">Кошки</button>
+            </li>
+            <li class="pets-item">
+              <button class="pets-item-button" type="button">Котята</button>
+            </li>
+          </ul>
+          <div class="pets-photos-container">
+            <ul class="pets-arrows-list">
+              <li class="pets-arrow-item">
+                <button class="pets-arrow-button" type="button">
+                  <span class="visually-hidden">Предыдущий слайд.</span>
+                </button>
+              </li>
+              <li class="pets-arrow-item">
+                <button class="pets-arrow-button pets-arrow-button-next" type="button">
+                  <span class="visually-hidden">Следующий слайд.</span>
+                </button>
+              </li>
+            </ul>
+            <!-- Для переключения фото при разрешении 320px добавьте класс white-cat-item-active к white-cat-item и т.д-->
+            <ul class="pets-photos-list">
+              <li class="pets-photos-item white-cat-item">
+                <img class="white-cat-image" src="images/content/white-cat.png" width="519" height="214"
+                  alt="Мейн-кун, мальчик, белого цвета.">
+              </li>
+              <li class="pets-photos-item brown-cat-item">
+                <img class="brown-cat-image" src="images/content/brown-cat.jpg" width="535" height="241"
+                  alt="Мейн-кун, мальчик, коричневого цвета.">
+              </li>
+              <li class="pets-photos-item black-cat-item black-cat-item-active">
+                <span class="visually-hidden">Мейн-кун, мальчик, коричневого цвета.</span>
+              </li>
+            </ul>
+          </div>
+          <a class="pets-link button" href="#">Смотреть больше</a>
+        </div>
+      </section>
+      <section class="features">
+        <div class="features-content">
+          <h2 class="features-heading">Особенности породы</h2>
+          <p class="features-description">Мейн-Кун - это порода, которая вызывает <br> к себе уважение. <br
+              class="seven-br"> Приобретая в свой дом
+            этого питомца, <br class="large-screen">
+            вы получите <br class="seven-br"> умное животное, которому нет равных </p>
+          <div class="features-cat">
+            <img class="features-cat-image" src="images/background/orange-cat.png" width="602" height="655"
+              alt="Изображение рыжего Мейн-куна.">
+
+          </div>
+          <ul class="features-list">
+            <li class="features-item features-item-dog">Выполняет команды как <br class="large-screen"> дрессированная
+              собака</li>
+            <li class="features-item features-item-weight">Вес может достигать <br class="large-screen"> 12 кг, а длина
+              1 м</li>
+            <li class="features-item features-item-appearance">Внешний вид этой кошки <br class="large-screen"> похож на
+              дикую рысь</li>
+            <li class="features-item features-item-children">Легко уживается в семьях с детьми <br class="large-screen">
+              или другими
+              животными</li>
+          </ul>
+        </div>
+      </section>
+      <section class="advantages">
+        <div class="advantages-content">
+          <h2 class="advantages-heading">Почему именно мы?</h2>
+          <p class="advantages-description">Приобретая животное в нашем питомнике, вы получите</p>
+          <ul class="advantages-list">
+            <li class="advantages-item advantages-item-free">
+              <a class="advantages-link advantages-link-free" href="#">Бесплатное ветеринарное <br> обслуживание 5
+                лет</a>
+            </li>
+            <li class="advantages-item advantages-item-consultation">
+              <a class="advantages-link advantages-link-consultation" href="#">Консультирование по любому <br> вопросу
+                24 часа в сутки</a>
+            </li>
+            <li class="advantages-item advantages-item-food">
+              <a class="advantages-link advantages-link-food" href="#">Индивидуальный подбор <br> питания для вашего
+                кота</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="about-care">
+        <div class="about-care-content">
+          <h2 class="about-care-heading">Об уходе <br> за Мейн-Куном</h2>
+          <ul class="about-care-list">
+            <li class="about-care-item about-care-item-wool">
+              <a class="about-care-link" href="#">
+                <h3 class="about-care-item-heading">Шерсть</h3>
+                <p class="about-care-item-description">Мы разработали 8 правил, следуя которым, шерсть вашего <br
+                    class="large-screen">
+                  кота всегда будет блестящей, мягкой и послушной</p>
+              </a>
+            </li>
+            <li class="about-care-item about-care-item-claw">
+              <a class="about-care-link about-care-link-claw" href="#">
+                <h3 class="about-care-item-heading">Когти</h3>
+                <p class="about-care-item-description">Нужно ли стричь когти? Это мы и выясним, плюс ко всему
+                  расскажем
+                  как подобрать идеальную когтеточку</p>
+              </a>
+            </li>
+            <li class="about-care-item about-care-item-ears">
+              <a class="about-care-link about-care-link-ears" href="#">
+
+                <h3 class="about-care-item-heading">Уши и глаза</h3>
+                <p class="about-care-item-description">Владельцам котов необходимо регулярно осматривать <br
+                    class="large-screen">
+                  ушки и глазасвоих питомцев, ведь это может быть <br class="large-screen">
+                  признаками заболевания</p>
+              </a>
+            </li>
+            <li class="about-care-item about-care-item-feed">
+              <a class="about-care-link about-care-link-feed" href="#">
+                <h3 class="about-care-item-heading">Питание</h3>
+                <p class="about-care-item-description">В нашем питомнике существует два подхода: натуральное
+                  питание
+                  и
+                  питание <br> промышленными кормами, <br> но выбирать только вам</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="our-team">
+        <div class="our-team-content">
+          <h2 class="our-team-heading">Наша команда</h2>
+          <p class="our-team-description">Все сотрудники нашего питомника дипломированые специалисты <br>
+            в области фелинологии и ветеринарии</p>
+          <div class="our-team-container">
+            <h3 class="nursery-founder">Серёжа Попов</h3>
+            <p class="nursery-founder-job">Основатель питомника</p>
+            <p class="nursery-founder-description">Наш питомник занимается разведением Мейн-Кунов <br
+                class="large-screen">
+              на протяжении 15 лет. <br> Мы в ответе за каждого <br class="large-screen">
+              приобретенного вами питомца</p>
+            <ul class="our-team-arrows-list">
+              <li class="our-team-arrow-item">
+                <button class="our-team-arrow-button" type="button">
+                  <span class="visually-hidden">Предыдущий слайд.</span>
+                </button>
+              </li>
+              <li class="our-team-arrow-item">
+                <button class="our-team-arrow-button our-team-arrow-button-next" type="button">
+                  <span class="visually-hidden">Следующий слайд.</span>
+                </button>
+              </li>
+            </ul>
+            <ul class="social-list social-list-team">
+              <li class="social-item">
+                <a class="social-link social-link-facebook" href="#" target="_blank">
+                  <span class="visually-hidden">Мы в Фейсбуке.</span>
+                </a>
+              </li>
+              <li class="social-item">
+                <a class="social-link social-link-twitter" href="#" target="_blank">
+                  <span class="visually-hidden">Мы в Твиттере.</span>
+                </a>
+              </li>
+
+              <li class="social-item">
+                <a class="social-link social-link-vk" href="#" target="_blank">
+                  <span class="visually-hidden">Мы во Вконтакте.</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="faq">
+        <div class="faq-content">
+          <h2 class="faq-heading">Вопрос-Ответ</h2>
+          <p class="faq-description">Мы ответим на самые популярные ваши вопросы</p>
+          <ul class="faq-list">
+            <li class="faq-item">
+
+              <button class="faq-button" type="button">
+                С какого возраста можно забирать котенка из питомника?
+              </button>
+              <p class="faq-item-description">Есть важная причина, почему котенка стоит забирать домой только после
+                трех
+                месяцев, — это вакцинация. Первые прививки животному делают в возрасте 8 недель. Ревакцинация
+                проводится
+                через 3–4 недели. То есть котенок, покидающий дом позднее 12 недель, максимально защищен от
+                различных
+                вирусов и инфекций.</p>
+              <p class="faq-item-description">Так что, чтобы в дома появился психически и физически здоровый
+                котенок,
+                игривый, жизнерадостный, самостоятельный и воспитанный, не спешите забирать его от кошки-мамы
+                раньше
+                трех
+                месяцев.</p>
+            </li>
+            <li class="faq-item">
+              <button class="faq-button faq-button-registration" type="button">
+                Как зарезервировать котенка?
+              </button>
+              <p class="faq-item-description">Что такое резервирование?
+                Резервирование - это внесение залога за выбранного котенка. Заводчик будет уверен в серьезности вашего
+                решения, а вы получаете гарантию, что ваш будущий котенок никому не будут предлагаться.
+                Залог – это невозвратная сумма ( но иногда случаются нюансы, когда задаток возвращается, смотрите ниже,
+                в каких ситуациях) Поэтому вносите задаток только лишь в случае полной уверенности, что Вы готовы купить
+                именно этого котенка. Сумма залога составляет 30% от стоимости котенка.</p>
+              <p class="faq-item-description">Переговоры по поводу резервирования и внесения залога ведутся только с тем
+                человеком, который будет заниматься котенком лично, на протяжении всей его жизни. Ни родственники, ни
+                друзья, ни спонсоры в качестве представителей не рассматриваются. Несовершенно летним и подросткам
+                котята не продаются. Если Вы желаете сделать подарок, привозите с собой одариваемого. Договор будет
+                заключаться конкретно с ним.
+                Котята будут покидать питомник только после полного вакцинирования, чипирования и карантина!!!
+                Предложения, а можно мы сами сделаем, не принимаются! Не тратьте не свое и не мое время в пустую,
+                уважайте труд и время заводчика! Надеюсь на Ваше понимание!</p>
+            </li>
+            <li class="faq-item">
+
+              <button class="faq-button faq-button-buy" type="button">
+                Можно ли купить кота, <br> если я живу в другом городе?
+              </button>
+              <p class="faq-item-description"> На данный момент практически все продажи животных происходят через
+                соц.сети и интернет. И зачастую, заводчик и потенциальный покупатель живут за тысячи километров друг от
+                друга. Покупатель выбирает питомца согласно фото и видео. Общение происходит через мессенджеры. Связь
+                поддерживается постоянно.</p>
+              <p class="faq-item-description"> На все интересующие вопросы заводчик даст развёрнутый ответ , а так же
+                предоставит видео подтверждение своих слов. Поэтому купить котёнка, при желании, даже если вы живете в
+                другом городе не проблема. И в настоящее время совершенно реально.</p>
+            </li>
+            <li class="faq-item">
+
+              <button class="faq-button faq-button-preparation" type="button">
+                Как подготовить дом <br> к приему нового питомца?
+              </button>
+              <p class="faq-item-description">Еще до того как любимца привели в Вашу квартиру, подумайте и составьте
+                список покупок необходимых ему предметов. В него могут войти:</p>
+              <p class="faq-item-description">
+                <b>Миски для еды</b>. В зоомагазинах их огромный
+                выбор. Поэтому лучше заранее продумать какая именно подойдет Вашему питомцу.
+              </p>
+              <p class="faq-item-description">
+                <b>Наполнители для туалета</b>, если Вашему питомцу
+                нужно пользоваться домашним туалетом. Принято считать, что в туалет дома ходят только представитель
+                семейства кошачьих. Однако некоторые маленькие породы собак тоже неплохо приучаются к лотку. То же
+                самое можно сказать и об очень маленьких щенках, которых некоторые хозяева в раннем возрасте
+                «выгуливают» в собственном туалете.
+              </p>
+              <p class="faq-item-description">
+                <b>Место для сна питомца</b>. Если Вы хотите
+                завести грызуна или птичку, то местом для их отдыха станет клетка. Если это кошка или собака, то в
+                зоомагазинах можно найти специальные лежанки для таких животных разных размеров.
+              </p>
+              <p class="faq-item-description">
+                <b>Приспособления для выгула питомца</b>. Это могут
+                быть всевозможные ошейники, поводки и намордники. Причем не стоит думать, что подобные вещи
+                используются только для собак. Если Вы планируете гулять с кошкой или даже с хомячком, Вам могут
+                пригодиться подобные предметы.
+              </p>
+              <p class="faq-item-description">
+                <b>Корм и подкормки</b>. Для каждого домашнего
+                питомца разработан специализированный корм, а также комплекс витаминов для их нормального питания и
+                роста. Хороший хозяин заботиться о здоровье своего любимца.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="reviews">
+        <div class="reviews-content">
+          <h2 class="reviews-heading">Отзывы</h2>
+          <div class="reviews-container">
+            <h3 class="reviews-container-heading">Серёжа Попов</h3>
+            <p class="reviews-container-description">Я выражаю огромную благодарность <br class="seven-br"> вашему
+              питомнику. <br class="large-screen"> Мой Феликс
+              невероятно <br class="seven-br"> умен <br class="mobile-screen"> и воспитан. Огромным плюсом <br
+                class="large-screen"> питомника
+              <br class="seven-br"> является возможность консультироваться <br class="large-screen">
+              в любое время
+            </p>
+            <ul class="reviews-arrows-list">
+              <li class="reviews-arrow-item">
+                <button class="reviews-arrow-button" type="button">
+                  <span class="visually-hidden">Предыдущий отзыв.</span>
+                </button>
+              </li>
+              <li class="reviews-arrow-item">
+                <button class="reviews-arrow-button reviews-arrow-button-next" type="button">
+                  <span class="visually-hidden">Следующий отзыв.</span>
+                </button>
+              </li>
+            </ul>
+            <div class="reviews-social-container">
+              <span class="reviews-date">24 мая 2018</span>
+              <ul class="social-list social-list-reviews">
+                <li class="social-item">
+                  <a class="social-link social-link-twitter" href="#" target="_blank">
+                    <span class="visually-hidden">Мы в Твиттере.</span>
+                  </a>
+                </li>
+                <li class="social-item">
+                  <a class="social-link social-link-vk" href="#" target="_blank">
+                    <span class="visually-hidden">Мы во Вконтакте.</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer-content">
+        <a class="logo footer-logo" href="index.html">
+          <span class="visually-hidden">Логотип питомника Мейн-кунов.</span>
+        </a>
+        <ul class="social-list footer-social-list">
+          <li class="social-item social-item-facebook">
+            <a class="social-link social-link-facebook" href="#" target="_blank">
+              <span class="visually-hidden">Мы в Фейсбуке.</span>
+            </a>
+          </li>
+
+          <li class="social-item  social-item-twitter">
+            <a class="social-link social-link-twitter" href="#" target="_blank">
+              <span class="visually-hidden">Мы в Твиттере.</span>
+            </a>
+          </li>
+          <li class="social-item social-item-vk">
+            <a class="social-link social-link-vk" href="#" target="_blank">
+              <span class="visually-hidden">Мы во Вконтакте.</span>
+            </a>
+          </li>
+        </ul>
+        <address class="address">
+          <a class="address-link" href="https://www.google.ru/maps" target="_blank">Новосибирск, Пушкинский проспект,
+            19</a>
+        </address>
+        <a class="footer-phone" href="tel:+73839006465">+7 (383) 900-64-65</a>
+      </div>
+    </footer>
+  </body>
+
+</html>
